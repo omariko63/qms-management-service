@@ -19,10 +19,13 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 		"com.example.management",
 		"common.model"
 })
+
 public class ManagementApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManagementApplication.class, args);
+		System.out.println("\n\nApplication Compiled!!!!!\n");
+
 	}
 
 }
