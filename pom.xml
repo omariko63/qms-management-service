@@ -34,6 +34,8 @@
 	</repositories>
 	<properties>
 		<java.version>21</java.version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 	<!-- Added Spring Cloud BOM to manage Eureka versions -->
 	<dependencyManagement>
